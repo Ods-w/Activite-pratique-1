@@ -29,3 +29,7 @@
 #### La classe métier reçoit une instance de ext.DoaImpl2 créée dynamiquement, également déterminée par config.txt.
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/fafcae2b-73a1-4166-9cf1-e1bd7b9d2fa4" />
 
+## Résultats obtenus :
+#### Pour la version utilisant la base de données, le programme renvoie correctement le résultat de calcul() grâce à l’implémentation dynamique associée à la base de données.
+#### Pour la version via le service web, le programme produit également le résultat attendu de calcul() en s’appuyant sur l’implémentation dynamique du service web.
+#### Ces tests démontrent que l’injection dynamique fonctionne efficacement, rendant le code plus modulable et facile à maintenir, sans nécessiter de modifications au niveau des classes métiers.
