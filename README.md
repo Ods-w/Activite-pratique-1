@@ -1,4 +1,5 @@
 # Compte rendu du premiere partie du TP : Injection des dépendenses
+#### Video 1
 #### Ce TP illustre le concept d’injection des dépendances en Java.
 #### Il a été réalisé en suivant la vidéo du professeur.
 #### L’objectif est de séparer la logique métier de l’accès aux données afin d’améliorer la modularité et la maintenabilité du code.
@@ -33,3 +34,5 @@
 #### Pour la version utilisant la base de données, le programme renvoie correctement le résultat de calcul() grâce à l’implémentation dynamique associée à la base de données.
 #### Pour la version via le service web, le programme produit également le résultat attendu de calcul() en s’appuyant sur l’implémentation dynamique du service web.
 #### Ces tests démontrent que l’injection dynamique fonctionne efficacement, rendant le code plus modulable et facile à maintenir, sans nécessiter de modifications au niveau des classes métiers.
+
+#### Video 2 
