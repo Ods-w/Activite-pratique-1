@@ -36,3 +36,23 @@
 #### Ces tests démontrent que l’injection dynamique fonctionne efficacement, rendant le code plus modulable et facile à maintenir, sans nécessiter de modifications au niveau des classes métiers.
 
 #### Video 2 
+### 3. Injection avec Spring (fichier XML) 
+#### Dans cette partie, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring, à l’aide du fichier de configuration applicationContext.xml.
+#### C’est à ce stade que l’on met véritablement en pratique le principe d’Inversion de Contrôle (IoC).
+#### Classe utilisée : PresentationSpringXML.java
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/abdebf18-b816-4893-8d7c-f0ee54c8c9c7" /> 
+
+### Ce que ce TP nous a permis d’apprendre
+#### La manière de découpler efficacement les différentes couches d’une application Java.
+#### L’application du principe d’Inversion de Contrôle (IoC) pour déléguer la création et la gestion des objets.
+#### Le rôle essentiel du framework Spring dans la gestion des dépendances.
+#### Comment rendre un code plus modulaire, testable et facile à faire évoluer.
+### Résultats attendus
+#### À chaque étape, le programme affiche le résultat du traitement métier, déterminé par la valeur renvoyée par la couche DAO.
+#### Ce résultat diffère selon le type d’injection mis en œuvre.
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/ad6aa0c4-8d95-42be-b425-332a09543bc1" />
+
+
+### Conclusion
+#### Ce TP illustre clairement la transition d’un code fortement couplé vers une architecture souple et maintenable grâce à Spring.
+#### L’injection de dépendances simplifie la réutilisation du code, facilite la maintenance, et contribue à un développement plus professionnel et structuré.
